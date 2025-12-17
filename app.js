@@ -7,7 +7,7 @@ app.use(express.json());
 let todos = [];
 
 app.get("/", (req, res) => {
-  res.send("Welcome to the Simple To-Do App!!");
+  res.send("Welcome to the Simple To-Do App, enjoy!!");
 });
 
 app.get("/todos", (req, res) => {
